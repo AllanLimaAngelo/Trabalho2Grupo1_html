@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+  background: transparent;
+  display: none;
+}
+
+img {
+  user-select: none;
+}
+
+:root {
+  --cor0: #fff;
+  --cor1: #280000;
+  --cor2: #580000;
+  --cor3: #b10f2e;
+  --cor4: #de7c5a;
+  --cor5: #ffb686;
+}
+
+.madder {
+  background-color: var(--cor3);
+}
+
+.rosewood {
+  background-color: var(--cor2);
+}
+
+.blackbean {
+  background-color: var(--cor1);
+}
+
+.burntsienna {
+  background-color: var(--cor4);
+}
+
+header {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  place-content: center;
+  background-color: var(--cor2);
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 85px;
+}
+
+.slogan-box {
+  background: var(--cor5);
+  margin-top: 10px;
+  z-index: 1;
+  text-align: center;
+  color: var(--cor2);
+  text-transform: uppercase;
+  padding-top: 7.5px;
+  text-align: center;
+}
+
+.slogan-box h1 {
+  font-family: "MedievalSharp", 'Courier New', Courier, monospace;
+  font-weight: 100;
+  font-size: 22px;
+}
+
+.logo {
+  width: 120%;
+}
+
+.logo-box {
+  z-index: 2;
+  display: flex;
+  align-items: end;
+  width: 100px;
+  height: 110px;
+  border-radius: 3px;
+}
+
+body {
+  background: url(../img/bgLotusg.png) center top no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.item-box {
+  display: flex;
+  border: 0.5px solid var(--cor4);
+  background: linear-gradient(-135deg, var(--cor1), transparent 10%);
+  justify-content: center;
+  border-radius: 10px;
+  color: var(--cor5);
+}
+
+.esp h2 {
+  color: var(--cor5);
+  font-family: "MedievalSharp", cursive, 'Courier New', Courier, monospace;
+  font-size: 50px;
+  text-align: center;
+}
+
+.tab {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 40px;
+  overflow-x: scroll;
+  padding: 12px;
+  user-select: none;
+}
+
+.tab::-webkit-scrollbar-thumb {
+  background-color: var(--cor5);
+}
+
+.tab::-webkit-scrollbar {
+  background: transparent;
+  height: 5px;
+}
+
+.tab li {
+  display: grid;
+  place-content: center;
+  background: var(--cor4);
+  border-radius: 10px;
+}
+
+.tab li a {
+  padding: 0px 80px;
+  text-decoration: none;
+  color: var(--cor2);
+  font-size: 20px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.esp:first-child {
+  margin-top: 280px;
+}
+
+.esp {
+  margin-bottom: 80px;
+  border: solid 1px var(--cor5);
+  border-radius: 8px;
+}
+
+.item-box .btn {
+  background-color: var(--cor4);
+  color: var(--cor2);
+}
+
+main {
+  padding: 0px;
+  width: 100%;
+}
+
+.img-box {
+  padding: 5px;
+}
+
+footer ul li {
+  margin: 10px 0;
+}
+
+a {
+  font-size: 90% !important;
+}
